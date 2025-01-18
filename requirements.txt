@@ -1,0 +1,8 @@
+Django==4.1.7
+channels==4.0.0
+channels-redis==4.0.0
+daphne==4.0.0
+redis==4.0.0
+psycopg2-binary==2.9.3  # Use this if you are using PostgreSQL, or replace with 'mysqlclient' for MySQL
+gunicorn==20.1.0  # Recommended for production deployment
+django-environ==0.8.1  # For handling environment variables (e.g., Redis URL, database settings)
